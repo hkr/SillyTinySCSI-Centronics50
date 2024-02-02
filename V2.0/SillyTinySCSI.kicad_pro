@@ -61,13 +61,7 @@
           "width": 0.127
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|144079999|68450001|00000000-0000-0000-0000-00006234fad8|c340aae6-ec6c-4278-9c9a-88874dca5fe0",
-        "courtyards_overlap|147079999|68450001|00000000-0000-0000-0000-00006234fb4e|c340aae6-ec6c-4278-9c9a-88874dca5fe0",
-        "courtyards_overlap|152304999|51800001|00000000-0000-0000-0000-00006234fb2a|d0a3f8b0-6b57-4e90-94dd-3f6c407baeec",
-        "courtyards_overlap|155479999|51800001|00000000-0000-0000-0000-00006234fb66|d0a3f8b0-6b57-4e90-94dd-3f6c407baeec",
-        "lib_footprint_mismatch|134800000|62800000|f1d8f057-6ed9-40fa-925f-b8920cf7466c|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -77,7 +71,7 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "ignore",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -104,7 +98,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -501,36 +495,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Scsi",
-        "pattern": "~{SCSI_*}"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*VCC*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*5V*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*VBUS*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "TERMPWR*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

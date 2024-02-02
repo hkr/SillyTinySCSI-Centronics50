@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "centronics")(type "KiCad")(uri "/Users/fp/dev/SillyTinySCSI/V2.0/kicad_libs/111-050-113L001")(options "")(descr ""))
+)
